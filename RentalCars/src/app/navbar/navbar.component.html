@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Rental Cars</a>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Team</a>
+      </li>
+    </ul>
+  </div>
+  <ng-template [ngIf]="donatedSum > 200"><p class="h3 text-danger mr-2">VIP</p></ng-template>
+  <button class="btn btn-dark" (click)= "donate()">Donate €10</button>
+</nav>
