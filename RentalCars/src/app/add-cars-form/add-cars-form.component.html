@@ -1,0 +1,32 @@
+<div class="container">
+<form [formGroup]="newCar" (ngSubmit)="sendToArray()">
+
+	<label>
+   		Brand:
+   		<input type="text" formControlName="brand">
+ 	</label>
+ 	<br>
+ 	<label>
+   		Model:
+   		<input type="text" formControlName="model">
+ 	</label>
+ 	<br>
+ 	<label>
+   		Manufacturing Year:
+   		<input type="text" formControlName="manufacturingYear">
+ 	</label>
+ 	<br>
+ 	<label>
+  		Price:
+   		<input type="text" formControlName="price">
+ 	</label>
+ 	<br>
+ 	<label>
+  		Picture:
+   		<input type="text" formControlName="img">
+ 	</label>
+ 	<br>  
+ 	<input type="submit" class="btn btn-primary" value="Submit">
+
+</form>
+</div>

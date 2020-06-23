@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "RentalCars"
+    }
+  },
+  "defaultProject": "RentalCars",
+  "cli": {
+    "analytics": false
+  }
 }

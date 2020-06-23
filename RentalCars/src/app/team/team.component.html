@@ -1,0 +1,13 @@
+<div class="container d-flex flex-wrap m-2 justify-content-around">
+	<div class="card col-lg-3 m-2" style="width: 18rem;" *ngFor="let i of staff">
+		<img class="card-img-top" src="assets/{{i.img}}" alt="{{i.firstname}} {{i.lastname}}">
+  		<div class="card-body">
+    		<h5 class="card-title">{{i.firstname}} {{i.lastname}}</h5>
+    		<p class="card-text">
+    			{{i.age}}
+    			<br>
+    			{{i.position}}
+    		</p>    		
+  		</div>
+	</div>
+</div>
